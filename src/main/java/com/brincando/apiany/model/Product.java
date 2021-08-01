@@ -1,5 +1,7 @@
 package com.brincando.apiany.model;
 
+import lombok.Getter;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,6 +11,7 @@ import javax.persistence.Table;
 
 import java.math.BigDecimal;
 
+@Getter
 @Entity
 @Table(name = "product")
 public class Product {
