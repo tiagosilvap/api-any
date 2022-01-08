@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.brincando</groupId>
-    <artifactId>api-any</artifactId>
+    <artifactId>api-spring-docker-aws</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -77,8 +77,8 @@
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-maven-plugin</artifactId>
                 <configuration>
-<!--                    <url>jdbc:mysql://localhost:3306/z_loja?useSSL=false</url>-->
-                    <url>jdbc:mysql://db:3306/z_loja?useSSL=false</url>
+                    <url>jdbc:mysql://localhost:3306/z_loja?useSSL=false</url>
+<!--                    <url>jdbc:mysql://db:3306/z_loja?useSSL=false</url>-->
                     <user>root</user>
                     <password>admin</password>
                 </configuration>

@@ -9,8 +9,8 @@ before_deploy:
 deploy:
   provider: script
   script:
-    docker push tiagosp13/mysql-api-any;
-    docker push tiagosp13/api-any;
+    docker push tiagosp13/mysql-api-spring-docker-aws;
+    docker push tiagosp13/api-spring-docker-aws;
   on:
     branch: master
 notifications:
