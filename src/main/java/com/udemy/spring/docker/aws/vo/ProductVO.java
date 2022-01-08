@@ -1,4 +1,4 @@
-package com.brincando.apiany.vo;
+package com.udemy.spring.docker.aws.vo;
 
 import lombok.Builder;
 import lombok.Getter;

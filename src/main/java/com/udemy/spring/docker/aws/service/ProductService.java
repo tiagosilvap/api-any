@@ -1,7 +1,7 @@
-package com.brincando.apiany.service;
+package com.udemy.spring.docker.aws.service;
 
-import com.brincando.apiany.model.Product;
-import com.brincando.apiany.repository.ProductRepository;
+import com.udemy.spring.docker.aws.model.Product;
+import com.udemy.spring.docker.aws.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

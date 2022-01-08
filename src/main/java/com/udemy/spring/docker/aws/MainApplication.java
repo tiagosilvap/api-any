@@ -1,13 +1,13 @@
-package com.brincando.apiany;
+package com.udemy.spring.docker.aws;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiAnyApplication {
+public class MainApplication {
     
     public static void main(String[] args) {
-        SpringApplication.run(ApiAnyApplication.class, args);
+        SpringApplication.run(MainApplication.class, args);
     }
     
 }

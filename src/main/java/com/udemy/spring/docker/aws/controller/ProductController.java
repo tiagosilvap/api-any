@@ -1,7 +1,7 @@
-package com.brincando.apiany.controller;
+package com.udemy.spring.docker.aws.controller;
 
-import com.brincando.apiany.model.Product;
-import com.brincando.apiany.service.ProductService;
+import com.udemy.spring.docker.aws.model.Product;
+import com.udemy.spring.docker.aws.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;

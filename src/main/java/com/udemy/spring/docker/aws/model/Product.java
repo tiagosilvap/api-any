@@ -1,4 +1,4 @@
-package com.brincando.apiany.model;
+package com.udemy.spring.docker.aws.model;
 
 import lombok.Getter;
 
